@@ -1,4 +1,5 @@
 import React from "react";
+import Search from "./Search";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faMagnifyingGlass, faMicrophone } from '@fortawesome/free-solid-svg-icons';
@@ -19,7 +20,7 @@ let Navbar=()=>{
                 </div>
                 <div className="input__search">
                 
-                    <input className="input"type="text" placeholder="Search" />
+                    <Search></Search>
                     <FontAwesomeIcon className="search-icon" icon={faMagnifyingGlass}></FontAwesomeIcon>
                     <FontAwesomeIcon  className="microphone"icon={faMicrophone} />
                     
