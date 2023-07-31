@@ -170,3 +170,22 @@ color: red;
 .navbar__links li {
   padding: 0.5rem;
 }
+
+ @media (max-width:768px )
+{
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.channel-title {
+  font-size: 18px;
+}
+}
+
+@media (max-width:450px )
+{
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+}
